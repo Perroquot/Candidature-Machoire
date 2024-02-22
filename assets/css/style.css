@@ -1,0 +1,16 @@
+main{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fiche_perso{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fiche_perso img{
+    width: 45%;
+
+}
