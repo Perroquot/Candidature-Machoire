@@ -8,9 +8,40 @@ main{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 5vh;
 }
 
 .fiche_perso img{
     width: 45%;
+}
 
+.button{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button a{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+}
+.button img{
+    width: 30vh;
+}
+
+.cat_choice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.cat_choice a{
+    width: 80%;
+}
+
+.cat_choice img{
+    width: 25vh;
 }
